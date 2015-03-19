@@ -1,0 +1,47 @@
+{
+  "name": "sedot",
+  "version": "1.0.0",
+  "description": "Extract content html data from a website",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "gulp": "^3.8.11",
+    "minimist": "^1.1.1",
+    "request": "^2.53.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "sedot": "cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faizalpribadi/sedot"
+  },
+  "keywords": [
+    "cli",
+    "extract",
+    "sedot",
+    "scraping"
+  ],
+  "author": "faizalpribadi <faizal_pribadi@aol.com> (http://faizalpribadi.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faizalpribadi/sedot/issues"
+  },
+  "homepage": "https://github.com/faizalpribadi/sedot",
+   "engines": {
+    "node": ">=0.10.0"
+  }
+}
